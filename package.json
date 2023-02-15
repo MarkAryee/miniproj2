@@ -9,7 +9,7 @@
   "private": true,
   "scripts": 
   {
-    "start": "index.html"
+    "start": "node ./bin/www"
   },
 
   "dependencies": {
