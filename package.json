@@ -9,7 +9,7 @@
   "private": true,
   "scripts": 
   {
-    "start": "node app.js"
+    "start": "node ./bin/www"
   },
 
   "dependencies": {
