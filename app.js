@@ -5,6 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const user = require('./modules/User');
 const mongoose = require('mongoose')
+const serverless = require('serverless-http');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -88,4 +89,4 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-module.exports = app;
+module.exports = serverless(app);
