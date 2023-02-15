@@ -3,7 +3,7 @@
     "builds" : [
         {
             "src" : "app.js",
-            "use" : "@vercel/node ./bin/www"
+            "use" : "@vercel/node"
         }
 
     ],
