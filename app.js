@@ -5,7 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const user = require('./modules/User');
 const mongoose = require('mongoose')
-const serverless = require('serverless-http');
+//const serverless = require('serverless-http');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
